@@ -1,0 +1,22 @@
+{
+  "name": "todolist-cli",
+  "version": "1.0.0",
+  "description": "Un todolist clasico por consola",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "dev-file": "nodemon appWithFile.js",
+    "start-file": "node appWithFile.js"
+  },
+  "keywords": [],
+  "author": "vincenzo",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
