@@ -1,3 +1,9 @@
+
+/**
+ * To Do List con manejo de archivos .txt
+ * Desde consola
+ */
+
 import { readFileSync, writeFileSync } from "fs";
 import { createInterface } from 'readline';
 import chalk from 'chalk';
